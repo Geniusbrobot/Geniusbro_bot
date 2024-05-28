@@ -106,23 +106,6 @@ Check out the [official API reference](https://platform.openai.com/docs/api-refe
 | `PLUGINS`                         | List of plugins to enable (see below for a full list), e.g: `PLUGINS=wolfram,weather`                                                            | -                                   |
 | `SHOW_PLUGINS_USED`               | Whether to show which plugins were used for a response                                                                                           | `false`                             |
 
-#### Available plugins
-| Name                      | Description                                                                                                                                         | Required environment variable(s)                                     | Dependency          |
-|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|---------------------|
-| `weather`                 | Daily weather and 7-day forecast for any location (powered by [Open-Meteo](https://open-meteo.com))                                                 | -                                                                    |                     |
-| `wolfram`                 | WolframAlpha queries (powered by [WolframAlpha](https://www.wolframalpha.com))                                                                      | `WOLFRAM_APP_ID`                                                     | `wolframalpha`      |
-| `ddg_web_search`          | Web search (powered by [DuckDuckGo](https://duckduckgo.com))                                                                                        | -                                                                    | `duckduckgo_search` |
-| `ddg_translate`           | Translate text to any language (powered by [DuckDuckGo](https://duckduckgo.com))                                                                    | -                                                                    | `duckduckgo_search` |       
-| `ddg_image_search`        | Search image or GIF (powered by [DuckDuckGo](https://duckduckgo.com))                                                                               | -                                                                    | `duckduckgo_search` |
-| `crypto`                  | Live cryptocurrencies rate (powered by [CoinCap](https://coincap.io)) - by [@stumpyfr](https://github.com/stumpyfr)                                 | -                                                                    |                     |
-| `spotify`                 | Spotify top tracks/artists, currently playing song and content search (powered by [Spotify](https://spotify.com)). Requires one-time authorization. | `SPOTIFY_CLIENT_ID`, `SPOTIFY_CLIENT_SECRET`, `SPOTIFY_REDIRECT_URI` | `spotipy`           |
-| `worldtimeapi`            | Get latest world time (powered by [WorldTimeAPI](https://worldtimeapi.org/)) - by [@noriellecruz](https://github.com/noriellecruz)                  | `WORLDTIME_DEFAULT_TIMEZONE`                                         |                     |
-| `dice`                    | Send a dice in the chat!                                                                                                                            | -                                                                    |                     |
-| `youtube_audio_extractor` | Extract audio from YouTube videos                                                                                                                   | -                                                                    | `pytube`            |
-| `deepl_translate`         | Translate text to any language (powered by [DeepL](https://deepl.com)) - by [@LedyBacer](https://github.com/LedyBacer)                              | `DEEPL_API_KEY`                                                      |                     |
-| `gtts_text_to_speech`     | Text to speech (powered by Google Translate APIs)                                                                                                   | -                                                                    | `gtts`              |
-| `whois`                   | Query the whois domain database - by [@jnaskali](https://github.com/jnaskali)                                                                       | -                                                                    | `whois`             |
-| `webshot`                 | Screenshot a website from a given url or domain name - by [@noriellecruz](https://github.com/noriellecruz)                                          | -                                                                    |                     |
 
 #### Environment variables
 | Variable                          | Description                                                                                                                                                                                     | Default value                       |
@@ -139,7 +122,7 @@ Check out the [official API reference](https://platform.openai.com/docs/api-refe
 Clone the repository and navigate to the project directory:
 
 ```shell
-git clone https://github.com/n3d1117/chatgpt-telegram-bot.git
+git clone https://github.com/Geniusbrobot/chatgpt-telegram-bot.git
 cd chatgpt-telegram-bot
 ```
 
@@ -176,29 +159,25 @@ docker compose up
 ```
 
 #### Ready-to-use Docker images
-You can also use the Docker image from [Docker Hub](https://hub.docker.com/r/n3d1117/chatgpt-telegram-bot):
+You can also use the Docker image from [Docker Hub](https://hub.docker.com/r/Geniusbrobot/Geniusbro_bot):
 ```shell
-docker pull n3d1117/chatgpt-telegram-bot:latest
-docker run -it --env-file .env n3d1117/chatgpt-telegram-bot
+docker pull Geniusbrobot/chatgpt-telegram-bot:latest
+docker run -it --env-file .env Geniusbrobot/Geniusbro_bot
 ```
 
-or using the [GitHub Container Registry](https://github.com/n3d1117/chatgpt-telegram-bot/pkgs/container/chatgpt-telegram-bot/):
+or using the [GitHub Container Registry](https://github.com/Geniusbrobot/chatgpt-telegram-bot/pkgs/container/Geniusbro_bot/):
 
 ```shell
-docker pull ghcr.io/n3d1117/chatgpt-telegram-bot:latest
-docker run -it --env-file .env ghcr.io/n3d1117/chatgpt-telegram-bot
+docker pull ghcr.io/Geniusbrobot/chatgpt-telegram-bot:latest
+docker run -it --env-file .env ghcr.io/Geniusbrobot/Geniusbro_bot
 ```
 
 #### Docker manual build
 ```shell
-docker build -t chatgpt-telegram-bot .
-docker run -it --env-file .env chatgpt-telegram-bot
+docker build -t Geniusbro_bot .
+docker run -it --env-file .env Geniusbro_bot
 ```
 
-## Credits
-- [ChatGPT](https://chat.openai.com/chat) from [OpenAI](https://openai.com)
-- [python-telegram-bot](https://python-telegram-bot.org)
-- [jiaaro/pydub](https://github.com/jiaaro/pydub)
 
 ## Disclaimer
 This is a personal project and is not affiliated with OpenAI in any way.
