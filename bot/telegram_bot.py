@@ -58,8 +58,8 @@ logger = logging.getLogger(__name__)
 
 from yookassa import Payment, Configuration
 
-Configuration.account_id = '279257'
-Configuration.secret_key = 'live_AnL1eJLWO3YWYED9ao7zr8MZB9ZVvbpZJlfiYkJSjww'
+Configuration.account_id = 
+Configuration.secret_key = 
 
 
 
