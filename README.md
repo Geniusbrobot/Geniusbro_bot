@@ -168,7 +168,7 @@ docker run -it --env-file .env Geniusbrobot/Geniusbro_bot
 or using the [GitHub Container Registry](https://github.com/Geniusbrobot/chatgpt-telegram-bot/pkgs/container/Geniusbro_bot/):
 
 ```shell
-docker pull ghcr.io/Geniusbrobot/chatgpt-telegram-bot:latest
+docker pull ghcr.io/Geniusbrobot/Geniusbro_bot:latest
 docker run -it --env-file .env ghcr.io/Geniusbrobot/Geniusbro_bot
 ```
 
