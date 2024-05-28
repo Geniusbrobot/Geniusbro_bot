@@ -24,7 +24,7 @@ A [Telegram bot](https://core.telegram.org/bots/api) that integrates with OpenAI
 - [x] Improved inline queries support for group and private chats -
 - [x] Support *new models* [announced on June 13, 2023](https://openai.com/blog/function-calling-and-other-api-updates)
 - [x] Support *functions* (plugins) to extend the bot's functionality with 3rd party services
-  - Weather, Spotify, Web search, text-to-speech and more. See [here](#available-plugins) for a list of available plugins
+  - Weather, Spotify, Web search, text-to-speech and more.
 - [x] (NEW!) Support GPT-4 Turbo and DALL·E 3
 - [x] (NEW!) Text-to-speech support 
 PRs are always welcome!
