@@ -122,8 +122,8 @@ Check out the [official API reference](https://platform.openai.com/docs/api-refe
 Clone the repository and navigate to the project directory:
 
 ```shell
-git clone https://github.com/Geniusbrobot/chatgpt-telegram-bot.git
-cd chatgpt-telegram-bot
+git clone https://github.com/Geniusbrobot/Geniusbro_bot.git
+cd Geniusbro_bot
 ```
 
 #### From Source
@@ -161,7 +161,7 @@ docker compose up
 #### Ready-to-use Docker images
 You can also use the Docker image from [Docker Hub](https://hub.docker.com/r/Geniusbrobot/Geniusbro_bot):
 ```shell
-docker pull Geniusbrobot/chatgpt-telegram-bot:latest
+docker pull Geniusbrobot/Geniusbro_bot:latest
 docker run -it --env-file .env Geniusbrobot/Geniusbro_bot
 ```
 
